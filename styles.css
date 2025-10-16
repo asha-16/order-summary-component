@@ -1,0 +1,142 @@
+/*--------------- CSS RESETS -----------------*/
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 10px;
+}
+
+body{
+    background: url('images/pattern-background-desktop.svg') no-repeat top center;
+    background-size: contain;
+    font-family: "Red Hat Display", sans-serif;
+    background-color: hsl(225, 100%, 94%);
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+}
+
+.main-flex-container {
+    max-width: 400px;
+    background-color: hsl(0, 0%, 100%);
+    display: flex;
+    flex-direction: column;
+    border-radius: 2rem;
+}
+
+.hero-image {
+    width: 100%;
+    display: block;
+    border-top-left-radius: 2rem;
+    border-top-right-radius: 2rem;
+}
+
+.order-info-container {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    justify-content: center;
+    align-items: center;
+    
+    padding: 3rem;
+}
+
+h1 {
+    color: hsl(223, 47%, 23%);
+    font-size: 3rem;
+    font-weight: 900;
+}
+
+.order-description {
+    font-size: 1.6rem;
+    font-weight: 500;
+    color: hsl(224, 23%, 55%);
+    text-align: center;
+    line-height: 1.5
+}
+
+.annual-plan-flex-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: hsl(225, 100%, 98%);
+    width: 100%;
+    padding: 2rem;
+    border-radius: 2rem;
+}
+
+.icon-plan-price-container {
+    display: flex;
+    gap: 2rem;
+}
+
+.annual-plan-price-container {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    justify-content: center;
+}
+
+.selected-plan {
+    color: hsl(223, 47%, 23%);
+    font-size: 1.6rem;
+    font-weight: 900;
+}
+
+.plan-price {
+    font-size: 1.6rem;
+    font-weight: 700;
+    color: hsl(224, 23%, 55%);
+}
+
+.change-plan{
+    font-size: 1.6rem;
+    font-weight: 900;
+    color: hsl(245, 75%, 52%);
+}
+
+.payment-button{
+    text-decoration: none;
+    font-size: 1.6rem;
+    font-weight: 700;
+    background-color: hsl(245, 75%, 52%);
+    color: hsl(225, 100%, 98%);
+    padding: 1.5rem 0;
+    text-align: center;
+    width: 100%;
+    border-radius: 1rem;
+}
+
+.payment-button:hover, .payment-button:active {
+    color: hsl(245, 75%, 52%);
+    background-color: hsl(225, 100%, 94%);
+    font-weight: 900;
+}
+
+.cancel-order {
+    text-decoration: none;
+    font-size: 1.6rem;
+    font-weight: 900;
+    color: hsl(224, 23%, 55%);
+}
+
+.attribution {
+    font-size: 1.6rem;
+    font-weight: 500;
+}
+
+.attribution a:link, .attribution a:visited {
+    text-decoration: none;
+}
+
+.attribution a:hover, .attribution a:active {
+    text-decoration: underline;
+    color: hsl(245, 75%, 52%);
+    font-weight: 700;
+}
